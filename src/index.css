@@ -1,0 +1,24 @@
+* {
+    margin: 0 box: sizing 0;
+    padding: 0
+}
+
+
+:root {
+
+    --react-library-dark: black;
+    --react-library-dark: white;
+
+}
+
+header {
+
+    background-color: black;
+    display: flex;
+
+}
+
+&.active {
+    text-decoration: underline;
+    color: var(--react-library-accent)
+}
