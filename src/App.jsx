@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import Posts from "./pages/Posts"
 import Chisiamo from "./pages/Chisiamo"
-import PostDetail from "./pages/PostDetail"
+import PostsDetail from "./pages/PostsDetail"
 
 import Defaultlayout from "./pages/Defaultlayout"
 
@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/Posts" element={<Posts />} />
             <Route path="/Chisiamo" element={<Chisiamo />} />
-            <Route path="/posts/:id" element={<PostDetail />} />
+            <Route path="/posts/:id" element={<PostsDetail />} />
 
           </Route>
 

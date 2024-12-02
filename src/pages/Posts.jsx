@@ -1,4 +1,5 @@
-import postsList from '../data/postslist.jsx';
+import { Link } from 'react-router-dom';
+import postsList from '../data/postslist';
 
 export default function Posts() {
     return (
@@ -9,11 +10,10 @@ export default function Posts() {
             <div className="posts">
                 {postsList.map((post, index) => (
                     <div key={index} className="post">
-                        <h2>{post.name}</h2>
                         <h2>
                             <Link to={`/posts/${index}`}>{post.name}</Link>
                         </h2>
-                        <img src={post.image} alt={post.name} />
+
                         <p>{post.content}</p>
                     </div>
                 ))}
