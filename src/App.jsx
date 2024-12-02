@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import Posts from "./pages/Posts"
 import Chisiamo from "./pages/Chisiamo"
+import PostDetail from "./pages/PostDetail"
 
 import Defaultlayout from "./pages/Defaultlayout"
 
